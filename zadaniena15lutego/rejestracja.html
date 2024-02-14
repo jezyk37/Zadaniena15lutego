@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rejestracja</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="srodek">
+        <div class="rej">
+            <h2>Rejestracja</h2>
+            <form action="rejestracja.php" method="post">
+                <label for="imie">Imię:</label><br>
+                <input type="text" id="imie" name="imie" required><br>
+                <label for="nazwisko">Nazwisko:</label><br>
+                <input type="text" id="nazwisko" name="nazwisko" required><br>
+                <label for="wiek">Wiek:</label><br>
+                <input type="number" id="wiek" name="wiek" required><br>
+                <label for="klasa">Klasa:</label><br>
+                <input type="text" id="klasa" name="klasa" required><br>
+                <label for="login">Login:</label><br>
+                <input type="text" id="login" name="login" required><br>
+                <label for="haslo">Hasło:</label><br>
+                <input type="password" id="haslo" name="haslo" required><br><br>
+                <div class="przy">
+                <input type="submit" value="Zarejestruj">
+                <p> Masz juz konto? <a href="login.html">Logowanie</a></p>
+                <p><a href="Strona.html">Powrot</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
