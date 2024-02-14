@@ -1,0 +1,1 @@
+Aby otworzyć strone należy pobrać ten plik a następnie wkleić folder do htdocs w xampp'ie. Następnie należy odpalić apache i mysql aby móc odbalić bazę danych importując ją z folderu pod nazwą "moja_szkola". Po imporcie należy wpisać w przeglądarke "http://localhost/zadaniena15lutego"
